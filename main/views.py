@@ -1,7 +1,9 @@
 from django.shortcuts import render
 
+from goods.models import Categories
 
 def index(request):
+
     context = {
         'title': 'Home',
         'content': 'This is the home page',
